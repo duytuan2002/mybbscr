@@ -1,0 +1,46 @@
+a.mButton {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #ffffff;
+	padding: 1px 3px;
+	text-decoration:none;
+	
+	background: -moz-linear-gradient(
+		top,
+		#ceb8d1 0%,
+		#820e82 50%,
+		#b3b3b3);
+	background: -webkit-gradient(
+		linear, left top, left bottom, 
+		from(#ceb8d1),
+		color-stop(0.50, #820e82),
+		to(#b3b3b3));
+	border-radius: 0px;
+	-moz-border-radius: 0px;
+	-webkit-border-radius: 0px;
+	border: 1px solid #a10096;
+	-moz-box-shadow:
+		0px 1px 1px rgba(179,157,179,0.5),
+		inset 0px 0px 1px rgba(255,255,255,1);
+	-webkit-box-shadow:
+		0px 1px 1px rgba(179,157,179,0.5),
+		inset 0px 0px 1px rgba(255,255,255,1);
+	text-shadow:
+		0px 1px 1px rgba(40,52,181,0.2),
+		0px 1px 1px rgba(133,152,171,1);
+	-ms-filter: progid:DXImageTransform.Microsoft.gradient(startColorStr=#ceb8d1, endColorStr=#820e82);  filter: progid:DXImageTransform.Microsoft.gradient(startColorStr=#ceb8d1, endColorStr=#820e82);  display:inline-block; /* IE is so silly */
+}
+
+a.mButton:hover {
+	background: -moz-linear-gradient(
+		top,
+		#ffffff 0%,
+		#820e82 50%,
+		#000000 67%,
+		#b3b3b3);
+}
+a.mButton:active {
+    position:relative;
+    top:1px;
+	border: 2px solid #a10096;
+} 
