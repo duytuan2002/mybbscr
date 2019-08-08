@@ -27,7 +27,6 @@ function removeRelatedDuplicates() {
 	}
 	relatedTitles = tmp2;
 	relatedUrls = tmp;
-
 }
 function contains(a, e) {
 	for(var j = 0; j < a.length; j++) {if (a[j]==e) {return true;}};
