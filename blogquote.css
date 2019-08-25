@@ -10,6 +10,7 @@ margin:0 120px;
 margin-bottom:18px;
 border:solid 1px rgb(220,220,220);
 position:relative;
+ border-left: 4px solid #27ae60;
 }
 
 blockquote:before,
@@ -21,13 +22,13 @@ content:".";
 font-size:0;
 }
 
-blockquote:before {
+blockquote::before {
 background-image:url('https://1.bp.blogspot.com/-RTYENuU5cjk/UnyeZqg1MEI/AAAAAAAAAxk/wMqB-XZyhM8/s1600/uoHCjSK.png');
 top:0;
 left:0;
 }
 
-blockquote:after {
+blockquote::after {
 background-image:url('https://1.bp.blogspot.com/-zY3B40Mp4hM/UnyeZocS9jI/AAAAAAAAAxg/pWjYhNilBwo/s1600/m3HnqqU.png');
 bottom:0;
 right:0;
