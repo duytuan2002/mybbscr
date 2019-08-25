@@ -1,16 +1,10 @@
 
 blockquote {
-color:rgb(255,150,100);
-font-family:georgia, serif;
-font-size:32px;
-line-height:1.2;
-text-align:center;
-padding:24px 60px;
-margin:0 120px;
-margin-bottom:18px;
-border:solid 1px rgb(220,220,220);
-position:relative;
- border-left: 4px solid #27ae60;
+background: #f9f9f9;
+border-left: 4px solid #27ae60;
+margin: 0 0 0 20px;
+padding: 10px;
+font-style: italic;
 }
 
 blockquote:before,
@@ -23,15 +17,29 @@ font-size:0;
 }
 
 blockquote::before {
-background-image:url('https://1.bp.blogspot.com/-RTYENuU5cjk/UnyeZqg1MEI/AAAAAAAAAxk/wMqB-XZyhM8/s1600/uoHCjSK.png');
-top:0;
-left:0;
+content: '\f10d';
+display: inline-block;
+font-family: FontAwesome;
+font-style: normal;
+font-weight: 400;
+line-height: 1;
+-webkit-font-smoothing: antialiased;
+-moz-osx-font-smoothing: grayscale;
+margin-right: 10px;
+color: #999;
 }
 
 blockquote::after {
-background-image:url('https://1.bp.blogspot.com/-zY3B40Mp4hM/UnyeZocS9jI/AAAAAAAAAxg/pWjYhNilBwo/s1600/m3HnqqU.png');
-bottom:0;
-right:0;
+content: '\f10e';
+display: inline-block;
+font-family: FontAwesome;
+font-style: normal;
+font-weight: 400;
+line-height: 1;
+-webkit-font-smoothing: antialiased;
+-moz-osx-font-smoothing: grayscale;
+margin-left: 10px;
+color: #999;
 }
 
 .author {
