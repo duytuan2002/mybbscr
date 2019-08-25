@@ -1,0 +1,43 @@
+#related-posts {
+float:center;
+text-transform:none;
+height:100%;
+min-height:100%;
+padding-top:5px;
+padding-left:5px;
+}
+#related-posts .widget{
+padding-left:6px;
+margin-bottom:10px;
+
+}
+#related-posts .widget h2, #related-posts h2{
+font-size: 1.6em;
+font-weight: bold;
+color: black;
+font-family: Georgia, &#8220;Times New Roman&#8221;, Times, serif;
+margin-bottom: 0.75em;
+margin-top: 0em;
+padding-top: 0em;
+}
+#related-posts a{
+color:blue;
+}
+#related-posts a:hover{
+color:blue;
+}
+#related-posts ul{
+list-style-type:none;
+margin:0 0 0px 0;
+padding:0px;
+text-decoration:bold;
+font-size:15px;
+text-color:#000000
+}
+#related-posts ul li{
+background:transparent url(https://2.bp.blogspot.com/_u4gySN2ZgqE/SnZhv_C6bTI/AAAAAAAAAl4/Rozt7UhvgOo/s200/greentickbullet.png) no-repeat ;
+display:block;
+list-style-type:none;
+margin-bottom: 13px;
+padding-left: 30px;
+padding-top:0px;}
